@@ -7,7 +7,7 @@ Be sure to change the configurations based on how and where you deploy this manu
 
 **DOCKER**
 
-To build the image: (may or may not need sudo depending on your configuration)
+To build the image: (may or may not need sudo depending on your configuration, make sure you are in the API_HANDLER FOLDER)
 ```
 docker build -t my-flask-app .
 ```
@@ -66,4 +66,5 @@ Then add the following line for the system user: (make sure the container was ma
 @reboot /usr/bin/docker start my-flask-container
 ```
 **Congratulations!! Your API is available at your domain**
+
 
