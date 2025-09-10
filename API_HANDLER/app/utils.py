@@ -15,7 +15,7 @@ TOKEN_LEN = 64
 
 #Database config 
 DB_CONFIG = {
-    "connection_string": "mongodb+srv://yusufcivan_db_user:NIlK39zt3RuwJW1t@webserviceproject.89cp5rc.mongodb.net/?retryWrites=true&w=majority&appName=WebServiceProject",
+    "connection_string": "",#REPLACE
     "db_name" : 'webserviceproject',
     "collections" : {
         "user_data": "user_data",
