@@ -4,7 +4,17 @@ This project aims to create an integration service to act as a bridge between da
 It is deployed in an EC2 instance on AWS and all the configurations are made accordingly.
 Be sure to change the configurations based on how and where you deploy this manual version of API Gateway.
 
-
+**Tech Stack**
+- Flask (For api endpoints)
+- Gunicorn (For production level WSGI)
+- Nginx (Reverse Proxy)
+- AWS EC2 (Deployment)
+- Docker (Containerization)
+- uv (Package Management)
+- MongoDB (For simulating DB)
+- Certbot (For obtaining and registering certs)
+- DuckDns (Free DNS for testing)
+  
 **DOCKER**
 
 To build the image: (may or may not need sudo depending on your configuration, make sure you are in the API_HANDLER FOLDER)
@@ -66,5 +76,6 @@ Then add the following line for the system user: (make sure the container was ma
 @reboot /usr/bin/docker start my-flask-container
 ```
 **Congratulations!! Your API is available at your domain**
+
 
 
