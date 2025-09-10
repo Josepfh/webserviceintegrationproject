@@ -1,0 +1,22 @@
+{
+    "full_name": "Yusuf Selim",
+    "api_token": "string",
+    "web_token": "string",
+    "billing_code": "string",
+    "billing_description": "string",
+    "billing_type": "string",
+    "menu":"object",
+    "menu_code":"string",
+    "dashboard": "object",
+    "dashboard_code":"string",
+    "custom_settings_form_code":"string",
+    "telematics":"object",
+    "bypass":"object",
+    "bypass_configuration":"Array of objects",
+    "theme":"object",
+    "custom":"object",
+    "username":"string",
+    "division_code":"string",
+    "opencab_configuration":"string",
+    "disallow_metered_map_downloads":"boolean"
+}
