@@ -2,7 +2,7 @@
 
 This project aims to create an integration service to act as a bridge between databases and websites.
 It is deployed in an EC2 instance on AWS and all the configurations are made accordingly.
-Be sure to change the configurations based on how and where you deploy this API Gateway.
+Be sure to change the configurations based on how and where you deploy this manual version of API Gateway.
 
 
 **DOCKER**
@@ -66,3 +66,4 @@ Then add the following line for the system user: (make sure the container was ma
 @reboot /usr/bin/docker start my-flask-container
 ```
 **Congratulations!! Your API is available at your domain**
+
